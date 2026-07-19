@@ -18,13 +18,11 @@ namespace ElrahmaHR
             this.StartPosition = FormStartPosition.CenterScreen;
             
             // Add basic controls for employee management
-            var titleLabel = new Label
-            {
-                Text = "Elrahma HR - Employee Management System",
-                Font = new Font("Arial", 16, FontStyle.Bold),
-                Dock = DockStyle.Top,
-                TextAlign = ContentAlignment.MiddleCenter
-            };
+            var titleLabel = new Label();
+            titleLabel.Text = "Elrahma HR - Employee Management System";
+            titleLabel.Font = new Font("Arial", 16, FontStyle.Bold);
+            titleLabel.Dock = DockStyle.Top;
+            titleLabel.TextAlign = ContentAlignment.MiddleCenter;
             
             this.Controls.Add(titleLabel);
         }

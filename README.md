@@ -4,17 +4,17 @@ A simple employee management desktop application built with C# for Windows 7 & 1
 
 ## Prerequisites
 
-- .NET 6 SDK or later
-- Visual Studio 2022 or VS Code with C# extensions
+- .NET Framework 4.8 SDK
+- Visual Studio 2019 or later, or VS Code with C# extensions
 
 ## Setup Instructions
 
-1. Install .NET 6 SDK from https://dotnet.microsoft.com/download/dotnet/6.0
+1. Install .NET Framework 4.8 Developer Pack from https://dotnet.microsoft.com/download/dotnet-framework/net48
 2. Clone the repository
-3. Restore packages: `dotnet restore`
-4. Build the project: `dotnet build`
-5. Run the application: `dotnet run`
+3. Open the solution in Visual Studio or restore packages: `nuget restore ElrahmaHR.sln`
+4. Build the project: `msbuild ElrahmaHR.sln`
+5. Run the application from Visual Studio or execute the built executable
 
 ## Target Framework
 
-This application targets .NET 6.0 for maximum compatibility with Windows 7 and 10.
+This application targets .NET Framework 4.8 for maximum compatibility with Windows 7 and 10.
